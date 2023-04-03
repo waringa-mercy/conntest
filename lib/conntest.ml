@@ -131,7 +131,7 @@ module Make
         acc := f !acc r.ring.(i);
       done;
       !acc
-
+(*map_rev*)
       let map_rev_shortcircuit f r =
         let i = ref 0 in
         let len = length r in
